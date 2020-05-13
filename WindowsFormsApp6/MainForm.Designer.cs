@@ -80,7 +80,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(190, 30);
             this.button1.TabIndex = 7;
-            this.button1.Text = "Файл Відкрити";
+            this.button1.Text = "Файл ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Open_Click_1);
             // 
@@ -112,6 +112,7 @@
             this.columnHeader3});
             this.listView1.GridLines = true;
             this.listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.listView1.HideSelection = false;
             this.listView1.LabelWrap = false;
             this.listView1.Location = new System.Drawing.Point(13, 202);
             this.listView1.MultiSelect = false;
