@@ -55,7 +55,7 @@ namespace WindowsFormsApp6
                 string fname = @"C:\s.txt";
                 openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
                 openFileDialog1.FilterIndex = 1;
-                openFileDialog1.Title = "Открыть файл";
+                openFileDialog1.Title = "Открть файл";
                 if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
                     fname = openFileDialog1.FileName;
